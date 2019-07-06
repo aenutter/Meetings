@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="10dp">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Time: "
+  			/>
+  			<TextView
+    			android:id="@+id/startTime"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+				android:text="Time"
+  			/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+  			<TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Day: "
+  			/>
+            <TextView
+    			android:id="@+id/day"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Day"
+  			/>
+  			
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Group: "
+  			/>
+            <TextView
+    			android:id="@+id/groupName"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Group"
+  			/>
+        </TableRow>
+		<TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Type: "
+  			/>
+            <TextView
+    			android:id="@+id/type"
+    			android:layout_width="wrap_content" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Type"
+  			/>
+        </TableRow>
+            
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Phone: "
+  			/>
+            <TextView
+    			android:id="@+id/phone"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:autoLink="all"
+    			android:text="Phone"
+  			/>
+            
+        </TableRow>
+               <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Street: "
+  			/>
+            <TextView
+    			android:id="@+id/street"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Street"
+  			/>
+        </TableRow>
+               <TableRow
+        		    android:id="@+id/tableRow7"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="City: "
+  			/>
+            <TextView
+    			android:id="@+id/city"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="City"
+  			/>
+            
+        </TableRow>
+               <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="State: "
+  			/>
+            <TextView
+    			android:id="@+id/state"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="State"
+  			/>
+            
+        </TableRow> 
+                  <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Zipcode: "
+  			/>
+            <TextView
+    			android:id="@+id/zipcode"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Zipcode"
+  			/>
+            
+        </TableRow>
+               <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Fellowship: "
+  			/>
+            <TextView
+    			android:id="@+id/fellowship"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Fellowship"
+  			/>
+            
+        </TableRow>
+               <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+    			android:layout_width="fill_parent" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Notes: "
+  			/>
+            <TextView
+    			android:id="@+id/location"
+    			android:layout_width="wrap_content" 
+    			android:layout_height="fill_parent" 
+    			android:textSize="17dip"
+    			android:text="Notes"
+  			/>
+            
+        </TableRow>
+        
+    </TableLayout>
+</LinearLayout>
+</ScrollView>

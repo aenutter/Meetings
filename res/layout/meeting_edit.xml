@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+>
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="fill_parent"
+  android:padding="10dp">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/timeLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Time: "
+  			/>
+  			<EditText
+    			android:id="@+id/startTime"
+     			android:layout_width="wrap_content" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+				android:text="8:00 AM"
+  			/>
+       </TableRow>
+  						
+<!-- end row -->  
+<TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >			
+  			<TextView
+  			    android:id="@+id/daylabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Day: "
+  			/>
+			
+			<!-- day -->
+  			<Spinner
+  			    
+  			    android:id="@+id/spinner5"
+  			    android:layout_width="fill_parent"
+  			    android:layout_height="35dip" />
+</TableRow>
+<!-- end row -->  		
+	 <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >	    
+            <TextView
+  			    android:id="@+id/groupLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Group: "
+  			/>
+            <EditText
+	android:id="@+id/groupName"                 
+    android:layout_width="fill_parent"
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Group Name" 
+         			/>
+<!-- end row -->  		
+ </TableRow>
+		<TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >	    
+            <TextView
+   			    android:id="@+id/typeLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Type: "
+  			/>
+            <EditText
+    			android:id="@+id/type"
+    			android:layout_width="fill_parent" 
+     			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Closed"
+  			/>
+<!-- end row -->  			    
+        </TableRow>
+            
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >            
+            <TextView
+    			android:id="@+id/phoneLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Phone: "
+  			/>
+            <EditText
+    			android:id="@+id/phone"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+       			android:textSize="16sp"
+       			android:autoLink="all"
+       			
+    			android:text="xxx-xxx-xxxx"
+  			/>
+<!-- end row -->  		
+</TableRow>
+               <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >	              
+            <TextView
+                android:id="@+id/streetLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Street: "
+  			/>
+            <EditText
+    			android:id="@+id/street"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+  			/>
+<!-- end row -->  		
+ </TableRow>
+               <TableRow
+        		    android:id="@+id/tableRow7"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" >	              
+            <TextView
+       			android:id="@+id/cityLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="City: "
+  			/>
+            <EditText
+    			android:id="@+id/city"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+  			/>
+<!-- end row -->  	
+</TableRow>
+               <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >		                
+            <TextView
+    			android:id="@+id/stateLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="State: "
+  			/>
+<!-- state -->
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="fill_parent"
+                 android:layout_height="35dip" />
+<!-- end row -->  	
+            
+        </TableRow> 
+                  <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >		                
+            <TextView
+                android:id="@+id/zipcodeLabel"
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Zipcode: "
+  			/>
+            <EditText
+    			android:id="@+id/zipcode"
+    			android:layout_width="fill_parent" 
+     			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Optional"
+  			/>
+<!-- end row -->  	
+        </TableRow>
+               <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >		              
+            <TextView
+                android:id="@+id/fellowshipLabel"
+                
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Fellowship: "
+  			/>
+<!-- fellowship -->
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip" />
+<!-- end row -->  		
+        </TableRow>
+               <TableRow
+            android:id="@+id/tableRow12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >		              
+            <TextView
+                                android:id="@+id/notesLabel"
+                
+    			android:layout_width="fill_parent" 
+    			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Notes: "
+  			/>
+            <EditText
+    			android:id="@+id/notes"
+    			android:layout_width="fill_parent" 
+     			android:layout_height="35dip" 
+    			android:textSize="16sp"
+    			android:text="Notes"
+  			/>
+<!-- end row -->  	
+        </TableRow>
+        
+    </TableLayout>		  
+<!-- <TextView
+    android:id="@+id/line"
+    android:layout_below="@+id/notesLabel"
+    android:paddingTop="5dip"
+    android:gravity="center_horizontal"
+    android:layout_width="fill_parent"
+    android:drawableBottom="@drawable/horizontal_line"
+    android:layout_height="1dip" />
+
+<LinearLayout
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="10dp">
+<Button 
+        android:id="@+id/neg"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="48dip"
+        android:drawableLeft="@drawable/dark_navigation_cancel"
+        android:text="Cancel"
+        />
+<TextView
+    android:paddingTop="5dip"
+    android:gravity="left"
+    android:layout_width="1dip"
+    android:drawableBottom="@drawable/vertical_line"
+    android:layout_height="fill_parent" />
+<Button 
+        android:id="@+id/pos"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="48dip"
+        android:drawableLeft="@drawable/dark_content_save"
+     	android:text="Save"/>
+</LinearLayout> -->
+</LinearLayout>
+</ScrollView>

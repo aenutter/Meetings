@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"     
+    android:orientation="horizontal" 
+>
+<!--      android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px"
+    android:layout_marginBottom="5px" -->
+    
+        <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       
+
+    <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+    <TextView android:id="@+id/timeLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+
+android:layout_centerVertical="false"	
+android:textSize="18dip"
+
+android:textStyle="bold"
+android:text="Time:      "
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+
+    </TextView>
+<!-- android:typeface="sans" -->
+<TextView android:id="@+id/todoRowTime"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerVertical="false"	
+android:textSize="18dip"
+
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px"
+>
+
+    </TextView>
+<!-- <ImageView
+
+        android:id="@+id/icon"
+
+        android:layout_width="30dp"
+
+        android:layout_height="24dp"
+
+        android:layout_marginLeft="4dp"
+
+        android:layout_marginRight="8dp"
+
+		
+        android:src="@drawable/dark_rating_favorite" >
+
+    </ImageView>
+      -->       
+
+<!-- end row -->
+</TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+<TextView android:id="@+id/cityLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerVertical="false"	
+android:textSize="18dip"
+
+android:textStyle="bold"
+android:text="Group:     "
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+    </TextView>
+        <TextView
+
+        android:id="@+id/todoRowGroupName"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:lines="1"
+
+        android:text="@+id/TextView01"
+
+        android:textSize="18dip"
+         android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+
+    </TextView>
+    </TableRow>
+    <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+       
+        <TextView android:id="@+id/cityLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerVertical="false"	
+android:textSize="18dip"
+
+android:textStyle="bold"
+android:text="City:      "
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+    </TextView>
+    <TextView
+
+        android:id="@+id/todoRowCity"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:lines="1"
+
+        android:text="@+id/TextView01"
+
+        android:textSize="18dip" 
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+    </TextView>
+
+    </TableRow>
+    <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+    
+        <TextView android:id="@+id/stateLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerVertical="false"	
+android:textSize="18dip"
+
+android:textStyle="bold"
+android:text="State:     "
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+    </TextView>
+       <TextView
+
+        android:id="@+id/todoRowState"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:lines="1"
+
+        android:text="@+id/TextView01"
+
+        android:textSize="18dip" 
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+
+    </TextView> 
+    <!-- android:layout_marginTop="6dp" -->
+    </TableRow>
+    <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+<TextView android:id="@+id/detailsLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerVertical="false"	
+android:textSize="18dip"
+
+android:textStyle="bold"
+android:text="Details: "
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+    </TextView>
+
+<TextView android:id="@+id/todoRowDetails"
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerVertical="false"	
+android:textSize="18dip"
+
+ android:layout_marginLeft="5px"
+    android:layout_marginRight="5px"
+    android:layout_marginTop="5px">
+    </TextView>
+<!-- android:paddingLeft="15dip" -->
+</TableRow>
+    </TableLayout>
+</LinearLayout> 

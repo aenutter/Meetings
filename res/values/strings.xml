@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">AA/NA/GA/OA Meeting Mapper/Maker/Finder</string>
+  <string name="base_url">http://aenutter.com/</string>
+  <!--<string name="base_url">http://192.168.42.180/meetings/</string>--> 
+  <string name="menu_update">AA/NA/GA/OA Meeting Mapper/Maker/Finder</string>
+  <string name="go_button">Find Meetings</string>
+  <string name="planet_prompt">Choose a Day</string>
+  <string name="planet_prompt2">Choose a Time</string>
+  <string name="planet_prompt3">Choose a State</string>
+  <string name="planet_prompt4">Choose a Fellowship</string>
+
+  
+  <string name="no_todos">Currently there are no Favorite meetings maintained</string>
+  <string name="menu_insert">Add Item</string>
+  <string name="menu_delete">Delete Favorite</string>
+  <string name="menu_about">About Favorite</string>
+  <string name="menu_share">Share Favorite</string>
+  <string name="menu_map">Map Favorite</string>
+  <string name="todo_summary">Summary</string>
+  <string name="todo_description">Delete Todo</string>
+  <string name="todo_edit_summary">Summary</string>
+  <string name="todo_edit_description">Description</string>
+  <string name="todo_edit_confirm">Confirm</string>
+  <string name="action_settings">Settings</string>
+  
+    
+</resources>

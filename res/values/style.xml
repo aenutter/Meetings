@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="Theme.D1NoTitleDim" parent="android:style/Theme.Translucent"> 
+<item name="android:windowNoTitle">true</item> 
+<item name="android:windowContentOverlay">@null</item> 
+<item name="android:backgroundDimEnabled">true</item> 
+<item name="android:background">@android:color/transparent</item> 
+</style> 
+<style name="Theme.CustomDialog"
+    parent="android:style/Theme.Dialog">
+    <item name="android:windowBackground">@drawable/dark_content_save</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+<style name="MyTheme" parent="android:Theme">
+     <item name="android:panelFullBackground">@android:color/transparent</item>
+</style>
+</resources>
